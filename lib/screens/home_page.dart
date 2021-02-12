@@ -4,7 +4,9 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text('Catlog App'),
+      ),
       drawer: Drawer(),
     );
   }
